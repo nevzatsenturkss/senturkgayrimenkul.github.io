@@ -1,0 +1,98 @@
+body{
+    background-image: url("res/blue-paperboard-texture.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 900px;
+    height: 350px;    
+    margin: auto;
+}
+header{
+    padding: 0px;
+    width: 900px;
+    height: 245px;
+    margin-top: 5px;
+}
+nav{
+    width: 600px;
+    height: 35px;
+    margin-bottom: 5px;
+   
+}
+nav ul{
+    margin: 25px;
+	padding: 25px;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a{
+    font-size: 12px;
+	line-height: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #23496c;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin-top: 5px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: darkslateblue;
+}
+nav ul li a:hover{
+    background-color: darkslateblue;
+    border-top-width: 5px;
+	border-top-style: solid;
+    border-top-color: #23496c;
+    margin-top: 0px;
+}
+section{
+    height: auto;
+    padding-top: 5px;
+    float: left;
+    width: 600px;
+}
+footer{
+    background-color: navy;
+    float: left;
+    padding-top: 5px;
+    width: 600px;
+    height: 15px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: auto;
+}
+article div  a{
+    text-decoration: none;
+    color:  white;
+}
+article div a:hover{
+     color: #ffd401;
+}
+aside{
+    float: left;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    border: #23496c;
+}
+.reklam {
+    text-align: center;
+  }
+  
+  .reklam img {
+    width: 200px;
+    height: 200px;
+  }
+  p{
+    background-color: aliceblue;
+    color: #23496c;
+  }
+  h1{
+    background-color: black;
+    color: aqua;
+  }

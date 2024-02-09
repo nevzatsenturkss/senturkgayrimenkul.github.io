@@ -1,0 +1,40 @@
+	/* -----------------------------------------------
+	   
+	   EBURHAN SARKAN MENÜ  {KIRMIZI SÜRÜM}
+
+	   * Hazırlayan     : Erhan BURHAN
+	   * E-posta adresi : eburhan{at}gmail{nokta}com
+	   * Web adresi     : http://www.eburhan.com
+	  
+	-------------------------------------------------- */
+	#sarkan_menu ul {
+	  margin: 0;
+	  padding: 0;
+	  height: 100%;	  
+	  overflow: hidden;
+	  list-style: none;
+	}
+
+	#sarkan_menu ul li {
+		float: left;
+		margin-right: 1px;
+		font: bold 12px/14px Arial, Helvetica;
+	}
+
+	#sarkan_menu ul li a {
+	  display: block;
+	  padding: 5px 0;
+	  width: 85px;
+	  border-top: 8px solid #e61042;
+	  color: #e61042;
+	  text-align: center;
+	  text-decoration: none;  
+	}
+
+	#sarkan_menu ul li a:hover, 
+	#sarkan_menu ul li a.aktif {
+	  padding-bottom: 8px;
+	  border-top: 8px solid #d83c2d;
+	  background: #d83c2d url(mouse-over.png) bottom no-repeat;
+	  color: #fff;
+	}

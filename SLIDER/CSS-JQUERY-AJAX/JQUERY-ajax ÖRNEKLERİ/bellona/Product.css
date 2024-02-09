@@ -1,0 +1,291 @@
+﻿#BigImageHolder {
+ background: transparent url(/i/bgBigProductImage.png) no-repeat;
+ width: 728px;
+ height: 428px;
+ padding: 1px;
+ margin-top: 11px;
+}
+#BigImage {
+ width: 720px;
+ height: 420px;
+ overflow: hidden;
+ -moz-box-sizing: content-box;
+ text-align: center;
+}
+#ProductProperty {
+ padding: 13px;
+ background-color: #eeeeee;
+}
+#ProductName, #TextOverImage {
+ width: 350px;
+ position: absolute;
+ background-color: white;
+ -moz-opacity: 0.5;
+ opacity: .70;
+ filter: alpha(opacity=70);
+ padding: 5px;
+ height: 37px;
+}
+#ProductName {
+ text-align: left;
+}
+#ProductName h1 {
+ display: table;
+ height: 31px;
+ font-size: 14px;
+ color: #005C64;
+}
+#TextOverImage {
+ margin: 0 0 0 360px;
+ text-align: right;
+}
+#ImageText {
+ float: left;
+ padding: 7px 5px 3px 13px;
+}
+#ContainerImageDescription {
+ text-align: left;
+ width: 720px;
+ color: Black;
+ font-size: 14px;
+ position: absolute;
+ background-color: white;
+ -moz-opacity: 0.5;
+ opacity: .70;
+ filter: alpha(opacity=70);
+ margin-top: 373px;
+ height: 47px;
+ overflow: hidden;
+ vertical-align: bottom; /*	float: left; 	padding: 337px 5px 3px 13px;*/
+}
+#ImageDescription {
+ padding: 13px;
+ font-size: 11px;
+}
+#PrevNextImage {
+ position: relative;
+ float: right;
+ top: 0;
+ visibility: hidden;
+}
+a#PriceSimple {
+ float: right;
+ padding-right: 13px;
+ text-align: right;
+ font-size: 15px;
+ padding-top: 5px;
+ font-weight: bold;
+ color: #cc0000;
+}
+#PrevNextImage #PrevArrow, #PrevNextImage #NextArrow {
+ font-size: 18px;
+ float: left;
+ font-weight: bold;
+}
+#PrevNextImage #PrevArrow a, #PrevNextImage #NextArrow a {
+ color: #cc0000;
+ text-decoration: none;
+ display: inline-block;
+ width: 32px;
+ height: 35px;
+ background-position: 0 -23px;
+}
+
+#PrevNextImage #PrevArrow a:Hover, #PrevNextImage #NextArrow a:Hover {
+ background-position: -64px -23px;
+}
+
+#PrevArrow a {
+ overflow: hidden;
+ background: transparent url(/i/prev-horizontal.png) no-repeat;
+}
+#NextArrow a {
+ margin-left: 11px;
+ overflow: hidden;
+ background: transparent url(/i/next-horizontal.png) no-repeat;
+}
+
+.ConceptDDL {
+ cursor: default;
+ background: #eeeeee url(/i/buttonConceptButunlugu.png) no-repeat;
+ background-position: right center;
+ width: 165px;
+ line-height: 22px;
+ display: inline-block;
+ float: right;
+ vertical-align: middle;
+ text-align: left;
+ margin: 6px 11px 0 0;
+ padding: 0 3px 0 11px;
+ color: #999999;
+ font-weight: bold;
+ font-size: 11px;
+}
+.ConceptDDL li > ul {
+ top: auto;
+ left: auto;
+}
+.ConceptDDL ul {
+ display: none;
+ margin: 0 0 0 -11px;
+ position: absolute;
+ list-style: none;
+ width: 189px;
+}
+.ConceptDDL ul li {
+ text-align: left;
+}
+.ConceptDDL ul li a {
+ background-color: #eeeeee;
+ display: block;
+ text-decoration: none;
+ color: #005C64;
+ text-align: left;
+ padding: 1px 3px 2px 11px;
+}
+.ConceptDDL ul li a:Hover {
+ background-color: white;
+ color: #0BB4CB;
+}
+#ProductAction a {
+ display: inline-block;
+ float: left;
+ height: 33px;
+ line-height: 33px;
+ padding-left: 33px;
+ background-position: 0 0;
+ background-repeat: no-repeat;
+}
+#ProductAction a:Hover {
+ background-position: 0 -33px;
+}
+#ProductAction a.FiyatListesi {
+ width: 95px;
+ background-image: url(/i/bgFiyatListesi.png);
+}
+#ProductAction a.KarsilastirmaListesineEkle {
+ width: 181px;
+ background-image: url(/i/bgKarsilastirmaListesineEkle.png);
+}
+#ProductAction a.Gonder {
+ width: 61px;
+ background-image: url(/i/bgGonder.png);
+}
+#ProductAction a.Yazdir {
+ width: 55px;
+ background-image: url(/i/bgYazdir.png);
+}
+
+h1.ProductDetailTitle {
+ margin: 11px 0 5px 0;
+ width: 709px;
+ padding: 7px 0 7px 11px;
+ font-size: 16px;
+ color: #005C64;
+ background-color: #eeeeee;
+}
+
+h3.ProductText {
+ font-family: Trebuchet MS;
+ font-size: 16px;
+ line-height: 175%;
+ letter-spacing: 1px;
+ color: #777777;
+}
+#ProductPrice .mainTBL {
+ width: 100%;
+}
+#ProductPrice .mainTBL td {
+ padding: 2px 5px 2px 5px;
+}
+#ProductPrice .footer {
+ font-size: 10px;
+ line-height: 100%;
+}
+#ProductAction, #ChildProducts {
+ display: block;
+ clear: both;
+}
+#ChildProducts ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+#ChildProducts ul li, #ProductDescription ul li {
+ list-style: none;
+ background-image: url(/i/bullet.png);
+ background-position: left top;
+ background-repeat: no-repeat;
+ padding-left: 15px;
+}
+table#tblProperty {
+ width: 353px;
+ float: left;
+ margin-right: 7px;
+}
+table#tblProperty td {
+ padding-left: 9px;
+ text-align: left;
+}
+table#tblProperty .GroupName {
+ text-align: left;
+}
+table#tblProperty h2 {
+ text-align: left;
+ font-size: 12px;
+}
+
+div.LeftThumb {
+ position: absolute;
+ z-index: 99;
+ width: 234px;
+ height: 157px;
+ padding: 3px 0 0 0;
+ -moz-box-sizing: content-box;
+ overflow: hidden;
+ text-align: center;
+ background: transparent url(/i/bgThumbProduct.png) no-repeat;
+ background-position: left center;
+}
+div.LeftThumb h3 {
+ font-family: Tahoma;
+ height: 21px !important;
+ padding: 0 7px 0 7px !important;
+ overflow: hidden;
+}
+div.LeftThumb h3 a {
+ text-decoration: none;
+ font-size: 14px !important;
+ color: #005C64;
+ font-weight: normal;
+}
+div.LeftThumb span.PPrice {
+ width: 64px;
+}
+
+.ProductDetailTitle {
+ padding: 13px 0 7px 0;
+}
+
+.PropertyImageDescription {
+ display: none;
+ position: absolute;
+ background-color: White;
+ padding: 11px;
+ width: 333px;
+ color: #555;
+ border: solid 5px #ccc;
+ z-index:990;
+}
+.PropertyImageDescription img {
+ float: right;
+}
+.PropertyImageDescription h3 {
+ font-size: 16px;
+ color: #555;
+ font-weight: normal;
+ margin-bottom: 11px;
+}
+#PropertyImages img {
+ width: 90px;
+}

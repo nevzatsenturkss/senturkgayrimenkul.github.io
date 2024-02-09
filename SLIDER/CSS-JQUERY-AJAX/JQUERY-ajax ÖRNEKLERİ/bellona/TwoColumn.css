@@ -1,0 +1,266 @@
+﻿#ColumnLeft {
+ background-color: White;
+ float: left;
+ text-align: left;
+ width: 185px;
+ border-bottom: 0;
+ -moz-box-sizing: content-box;
+ padding: 9px 7px 9px 7px;
+ margin-left: 5px;
+}
+a#ShowList {
+ display: none;
+ font-family: Tahoma;
+ font-size: 11px;
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ margin-top: 13px;
+}
+.BreadCrumbholder {
+ height: 43px;
+ overflow: hidden;
+ padding: 5px 0 7px 7px;
+}
+#BreadCrumb {
+ width: 703px;
+ display: inline-block;
+ float: left;
+ background: transparent url(/i/bgBreadCrumb.png) no-repeat;
+ padding: 0 7px 0 11px;
+ color: #999999;
+ text-align: left;
+}
+#BreadCrumb h1 {
+ display: inline-block;
+ font-family: Tahoma;
+ font-size: 12px;
+ color: #555555;
+ text-decoration: none;
+ padding-left: 5px;
+ line-height: 41px;
+}
+#BreadCrumb a {
+ line-height: 41px;
+ display: inline-block;
+ font-family: Tahoma;
+ font-size: 12px;
+ color: #555555;
+ text-decoration: none;
+ padding-left: 5px;
+}
+#BreadCrumb a:Hover {
+ color: #0BB4CB;
+}
+#BreadCrumb b {
+ font-weight: normal;
+}
+#CompareList {
+ float: right;
+ display: inline-block;
+}
+#CompareList a {
+ display: inline-block;
+ width: 221px;
+ line-height: 42px;
+ float: right;
+ background: transparent url(/i/bgKarsilastirmaListesi.png) no-repeat;
+ _background: transparent url(/i/bgKarsilastirmaListesi_8Bit.png) no-repeat;
+ background-position: 0 0;
+ color: #005C64;
+ text-decoration: none;
+}
+#CompareList a:Hover {
+ background-position: 0 -41px;
+ color: #0BB4CB;
+}
+#ColumnLeft ul {
+}
+#ColumnLeft ul li.LeftMain {
+ list-style: none;
+ background: white url(/i/bgLeftMenuMainItem_fix.png) no-repeat;
+}
+#ColumnLeft h1 {
+ padding: 0;
+}
+#ColumnLeft h1 a.Left {
+ float: left;
+ width: 143px;
+ font-family: Tahoma;
+ font-size: 13px;
+ color: White;
+ text-decoration: none;
+ padding: 3px 5px 5px 9px;
+}
+#ColumnLeft h1 span.Arrow {
+ float: left;
+ padding: 3px 5px 5px 0;
+}
+#ColumnLeft ul li ul {
+ border: solid 1px white;
+ clear: both;
+}
+#ColumnLeft ul li ul li {
+ background-image: none;
+ list-style: none;
+ margin: 0;
+ border-bottom: solid 1px #eeeeee;
+ background-color: White;
+}
+
+#ColumnLeft ul li ul li a {
+ display: block;
+ color: #005C64;
+ font-size: 11px;
+ text-decoration: none;
+ font-weight: normal; /*background-color: White;*/
+ padding: 2px 33px 2px 11px;
+}
+#ColumnLeft ul li ul li a:Hover {
+ background-color: #eeeeee;
+}
+#ColumnLeft ul li ul li.activePage a {
+ display: block;
+ background: white url(/i/bgLeftMenuItemActive.png) no-repeat;
+ background-position: right center;
+ margin-right: -7px;
+ font-weight: bold;
+}
+#ColumnRight {
+ background-color: White;
+ text-align: left;
+ float: right;
+ width: 721px;
+ overflow: hidden;
+ border-bottom: 0;
+ padding: 0 11px 11px 11px;
+ -moz-box-sizing: content-box;
+}
+#Labels {
+ margin-left: 3px;
+ width: 182px;
+ overflow: hidden;
+}
+#Labels a {
+ display: block;
+ height: 39px;
+ padding-left: 49px;
+ line-height: 39px;
+ background-repeat: no-repeat;
+ background-position: 0 0;
+ color: #005C64;
+ text-decoration: none;
+}
+#Labels a:Hover {
+ background-position: 0 -38px;
+}
+#Labels a.lblIndirimliUrun {
+ background-image: url(/i/bgLabelIndirimliUrunler.png);
+ _background-image: url(/i/bgLabelIndirimliUrunler_8Bit.png);
+}
+#Labels a.lblKampanya {
+ background-image: url(/i/bgLabelKampanyalar.png);
+ _background-image: url(/i/bgLabelKampanyalar_8Bit.png);
+}
+#Labels a.lblYeniUrun {
+ background-image: url(/i/bgLabelYeniUrunler.png);
+ _background-image: url(/i/bgLabelYeniUrunler_8Bit.png);
+}
+#Labels a:Hover {
+ color: #0BB4CB;
+}
+.lblRecommend {
+ font-weight: bold;
+ text-align: left;
+}
+h2#RecommendHeader {
+ font-size: 16px;
+ padding: 5px 5px 5px 17px;
+ background-color: #eee;
+ color: #005C64;
+ text-align: left;
+}
+input.btnSubmit {
+ line-height: 23px;
+ padding: 0 5px 0 7px;
+ border: solid 1px #ccc;
+}
+a.ServiceItem {
+ margin: 0;
+ padding: 0;
+}
+#Shortcut {
+ font-size: 10px;
+ background: transparent url(/i/bgShortcut.png) no-repeat;
+ width: 155px;
+ height: 97px;
+ padding: 15px;
+ margin-top: 17px;
+ text-align: left;
+}
+#Shortcut h3 {
+ font-size: 12px;
+ padding-bottom: 13px;
+}
+#Shortcut span.key {
+ padding-left: 11px;
+ width: 41px;
+ display: inline-block;
+ text-align: right;
+ color: Black;
+ font-weight: bold;
+}
+#Shortcut span.value {
+ padding-left: 5px;
+ color: #555;
+}
+span#SortPrice {
+ display: inline-block;
+ background: transparent url(/i/bgSortButton.png) no-repeat;
+ width: 193px;
+ padding: 5px 0 7px 5px;
+ vertical-align:middle;
+}
+span#SortPrice a {
+ color: White;
+}
+span#SortPrice img#imgSortPrice {
+ vertical-align:top;
+ margin:-1px 0 0 5px;
+}
+span#SortPrice img#imgSortCancel {
+ display:none;
+ vertical-align:top;
+ margin:-2px 0 0 3px;
+ cursor:pointer;
+}
+a.Share {
+ float:left;
+ width: 31px;
+ line-height:33px;
+ height:33px;
+ text-align: center;
+ padding: 5px 0 0 0 !important;
+ margin-left: 5px;
+}
+a.Share div.infoSpec {
+ position: relative;
+ top: -100px;
+ left: -0px;
+ text-align: center;
+ z-index: 2;
+ display: none;
+}
+a.Share div.infoSpec .bubbleContent {
+ width: 117px;
+ line-height: 200%;
+ border: solid 1px #26B4CD;
+ border-bottom: 0;
+ background-color: white;
+}
+a.Share div.infoSpec .bubbleBottom {
+ background: transparent url(/i/bubbleBottom.gif) no-repeat;
+ background-position: left bottom;
+ height: 7px;
+ width: 119px;
+}

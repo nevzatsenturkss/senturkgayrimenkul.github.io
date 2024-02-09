@@ -1,0 +1,23 @@
+/* ----------------------------------------------------
+	   
+	EBURHAN SARKAN MENÜLER v1.0
+
+
+	Web sitelerinde kullanılmak üzere hazırlanmış,
+	çeşitli renklerden oluşan navisgasyon sistemidir.
+
+	Kullanımı, dağıtımı ve düzenlenmesi serbesttir.
+
+
+    NOT: 
+    "mouse-over.png" isimli dosyaları Adobe Fireworks
+    yazılımı ile açıp düzenlemeler yapabilirsiniz. Bu
+    dosyaları web'de kullanamadan önce optimize etmeyi
+    unutmayınız.
+
+
+	* Hazırlayan     : Erhan BURHAN
+	* E-posta adresi : eburhan{at}gmail{nokta}com
+	* Web adresi     : http://www.eburhan.com
+
+------------------------------------------------------- */
